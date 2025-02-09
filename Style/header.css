@@ -1,0 +1,128 @@
+.header{
+    background-color: white;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    
+}
+
+.header:hover{
+    cursor:pointer;
+}
+.left-top{
+    display: flex;
+    align-items: center;
+    background-color:white;
+    width: 200px;
+}
+
+.middle-top{
+    display: flex;
+    margin-left: 10px;
+    background-color: white;
+    flex: 1;
+    margin-top: 5px;
+    margin-right: 35px;
+    height: 50px;
+    max-width: 650px;
+    align-items: center;
+}
+
+.right-top{
+    gap: 8px;
+    display: flex;
+    background-color:white;
+    width: 250px;
+}
+.youtube{
+    margin-top: 8px;
+    height: 30px;
+}
+.hamburg{
+    margin-top: 8px;
+    padding-left: 5px;
+    margin-right: 10px;
+    height: 30px;
+}
+.s1{
+    flex-shrink: 0%;
+    display: flex;
+    height: 30px;
+    flex:1;
+    max-width: 600px;
+}
+.s1::placeholder{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    align-items: center;
+}
+.search{
+    cursor:pointer;
+    width: 40px;
+    height: 34.5px;
+}
+.voice{
+    align-items: center;
+    border-radius: 25px;
+    margin-left: 8px;
+    height: 35px;
+    width: 40px;
+}
+.voice:hover{
+    cursor:pointer;
+}
+
+.up{
+    padding-left: 0%;
+    padding-top: 5px;
+    height: 48px;
+}
+.dot{
+    padding-top: 5px;
+    height: 48px;
+}
+.noti{
+    padding-top: 5px;
+    padding-top: 5px;
+    height: 48px;
+}
+.pp{
+    width: 40px;
+    border-radius: 30px;
+    height: 40px;
+    padding-top: 10px;
+}
+.vertical{
+    display: flex;
+    justify-content: center;
+    height: 76px;
+    width: 80px;
+    margin-top: 50px;
+}
+.simg{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 0px;
+    height: 34px;
+}
+.simg:hover{
+    cursor: pointer;
+    width: 50px;
+    border-radius: 25px;
+    background-color: rgb(135, 176, 211);
+}
+.vtext{
+    display: grid;
+    margin-top: 0px;
+    padding-bottom: 60px;
+    justify-content:left;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,57 @@
+.thumpnailpic{
+    width: 300px;
+    display:inline;
+    margin-bottom: 10px;
+}
+
+.video1{                
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.video2{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 350px 350px 350px 350px;
+}
+.channel-profile{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+.profilepic{
+    width: 100%;
+    border-radius: 50px ;
+}
+.youtube{
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    position: fixed;
+}
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 195px;
+    left:350px
+}
+.video-info-grid{
+    width: 300px;
+}
+.video-time1{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 195px;
+    left:680px
+}
